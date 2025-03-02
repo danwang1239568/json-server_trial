@@ -4,7 +4,7 @@
 			"id": 1,
 			"username": "danwang",
 			"level": 100,
-			"avatar": "http://localhost:5173/public/avatar.png"
+			"avatar": "http://localhost:5173/avatar.png"
 		}
 	]
 }

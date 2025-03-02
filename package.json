@@ -2,18 +2,17 @@
   "name": "api-test2",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-	"serve": "json-server ./public/db.json",
-	"run-all": "pnpm build && pnpm serve"
+    "start": "node server.js"
   },
   "devDependencies": {
     "vite": "^6.2.0"
   },
   "dependencies": {
+    "api-test2": "link:",
     "json-server": "1.0.0-beta.3"
   }
 }
